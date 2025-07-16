@@ -107,10 +107,15 @@ CIFAR-10 Dataset
 
 
 ├── data/                # CIFAR-10 dataset (via keras.datasets)
+
 ├── model/               # CNN model and training scripts
+
 ├── results/             # Accuracy & Loss visualization plots
+
 ├── README.md            # Project documentation
+
 └── main.ipynb           # Jupyter Notebook implementation
+
 🎯 Results Summary
 
 Achieved strong accuracy on both training and validation datasets.
