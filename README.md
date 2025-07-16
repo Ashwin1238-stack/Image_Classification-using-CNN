@@ -84,22 +84,13 @@ The CIFAR-10 dataset consists of 60,000 images across 10 distinct categories, su
 
 ## 📈 Performance Visualization
 
-### ✅ Accuracy Over Epochs
-
 
     plt.figure(figsize=(2,2))
     plt.imshow(image)
     plt.axis('off')
     plt.title(f'Predicted: {class_names[predicted_class]} | Actual: {class_names[true_label]}')
     plt.show()
-Example:
 
-predict_image(6)
-Output:
-
-
-1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 83ms/step
-🚀 Technologies Used
 Python
 
 TensorFlow / Keras
@@ -113,21 +104,22 @@ NumPy
 CIFAR-10 Dataset
 
 📂 Project Structure
-bash
-Copy
-Edit
+
+
 ├── data/                # CIFAR-10 dataset (via keras.datasets)
 ├── model/               # CNN model and training scripts
 ├── results/             # Accuracy & Loss visualization plots
 ├── README.md            # Project documentation
 └── main.ipynb           # Jupyter Notebook implementation
 🎯 Results Summary
+
 Achieved strong accuracy on both training and validation datasets.
 
 Clear visualizations show model performance trends.
 
 Individual sample predictions demonstrate model reliability.
 
+---
 👤 Author
 Ashwin Kumar
 Data Analyst | AI Enthusiast | Deep Learning Explorer
