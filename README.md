@@ -103,7 +103,7 @@ NumPy
 
 CIFAR-10 Dataset
 
-📂 Project Structure
+📂 **Project Structure**
 
 
 ├── data/                # CIFAR-10 dataset (via keras.datasets)
@@ -116,7 +116,7 @@ CIFAR-10 Dataset
 
 └── main.ipynb           # Jupyter Notebook implementation
 
-🎯 Results Summary
+🎯 **Results Summary**
 
 Achieved strong accuracy on both training and validation datasets.
 
@@ -125,6 +125,7 @@ Clear visualizations show model performance trends.
 Individual sample predictions demonstrate model reliability.
 
 ---
-👤 Author
-Ashwin Kumar
+👤 **Author**
+
+**Ashwin Kumar**
 Data Analyst | AI Enthusiast | Deep Learning Explorer
