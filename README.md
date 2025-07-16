@@ -91,18 +91,6 @@ The CIFAR-10 dataset consists of 60,000 images across 10 distinct categories, su
     plt.title(f'Predicted: {class_names[predicted_class]} | Actual: {class_names[true_label]}')
     plt.show()
 
-Python
-
-TensorFlow / Keras
-
-Matplotlib
-
-Seaborn
-
-NumPy
-
-CIFAR-10 Dataset
-
 📂 **Project Structure**
 
 
